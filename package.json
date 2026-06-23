@@ -12,6 +12,7 @@
   "scripts": {
     "build": "tsc && tsc --project tsconfig.esm.json",
     "build:watch": "tsc --watch",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build",
     "test": "jest",
     "test:watch": "jest --watch",
